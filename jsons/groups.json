@@ -1,0 +1,141 @@
+{
+    "groups": [
+        {
+            "ID": 1,
+            "name": "Projekt1",
+            "Lektor": "Jimbim",
+            "budget": 100,
+            "end_date": "2020-01-03",
+            "students": [2, 3]
+		},
+        {
+            "ID": 2,
+            "name": "Projekt2",
+            "Lektor": "Lektorovic",
+            "budget": 0,
+            "end_date": "2020-01-03",
+            "students": [3, 2, 6, 8]
+		},
+        {
+            "ID": 3,
+            "name": "Projekt3",
+            "Lektor": "Lehrerer",
+            "budget": 0,
+            "end_date": "2020-01-03",
+            "students": [6, 8]
+		},
+        {
+            "ID": 4,
+            "name": "Projekt4",
+            "Lektor": "lektor",
+            "budget": 0,
+            "end_date": "2020-01-03",
+            "students": [2, 6, 8]
+		},
+        {
+            "ID": 5,
+            "name": "Projekt5",
+            "Lektor": "lektor",
+            "budget": 0,
+            "end_date": "2020-01-03",
+            "students": [2, 6, 3]
+		}
+	],
+
+    "users": [
+        {
+            "ID": 1,
+            "user": "Jimbim",
+            "role": "Lektor",
+            "budget": 300
+		},
+        {
+            "ID": 2,
+            "user": "Heinz",
+            "role": "Student",
+            "budget": 0
+		},
+        {
+            "ID": 3,
+            "user": "Maxi",
+            "role": "Student",
+            "budget": 0
+		},
+        {
+            "ID": 4,
+            "user": "Lektorovic",
+            "role": "Lektor",
+            "budget": 600
+		},
+        {
+            "ID": 5,
+            "user": "Lehrerer",
+            "role": "Lektor",
+            "budget": 100
+		},
+        {
+            "ID": 6,
+            "user": "Sepp",
+            "role": "Student",
+            "budget": 0
+		},
+        {
+            "ID": 7,
+            "user": "Chefmann",
+            "role": "Admin",
+            "budget": 0
+		},
+        {
+            "ID": 8,
+            "user": "student",
+            "role": "Student",
+            "budget": 0
+		}
+	],
+
+    "budget_verlauf": [
+        {
+            "project_name": "Projekt1",
+            "budget": [
+                [1579561200000, 650],
+                [1579647600000, 550],
+                [1579734000000, 548],
+                [1579820400000, 540],
+                [1579906800000, 530]
+            ]
+        },
+        {
+            "project_name": "Projekt2",
+            "budget": [
+                [1577919600000, 250],
+                [1578006000000, 248],
+                [1578092400000, 240],
+                [1578178800000, 230],
+                [1578265200000, 210],
+                [1578351600000, 148],
+                [1578438000000, 40],
+                [1578524400000, 30]
+            ]
+        }
+    ],
+
+    "currentUsage": [
+        {
+            "usage": 0.8,
+            "groupName": "Projekt1"
+        },
+        {
+            "usage": 0.2,
+            "groupName": "Projekt2"
+        },
+        {
+            "usage": 0.55,
+            "groupName": "Projekt3"
+        },
+        {
+            "usage": 0.1,
+            "groupName": "Projekt4"
+        }
+    ]
+
+}
